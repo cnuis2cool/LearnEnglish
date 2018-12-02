@@ -1,0 +1,17 @@
+  #controls {
+    display: flex;
+    margin-top: 2rem;
+  }
+  audio {
+    display: block;
+    width: 100%;
+    margin-top: 0.8rem;
+  }
+  li {
+    list-style: none;
+    margin-bottom: 1rem;
+  }
+  #formats {
+    margin-top: 0.5rem;
+    font-size: 80%;
+  }
