@@ -110,6 +110,9 @@ jQuery(function ($) {
                 }
             }),
             li = $('#plList li').click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#schedule").offset().top
+                }, 500);
                 var id = parseInt($(this).index());
                 if (id !== index) {
                     playTrack(id);

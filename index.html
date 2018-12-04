@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html lang="zxx">
 
 <head>
-	<title>Learn English</title>
+	<title>Kalvi Thunai | Learn English</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	<link rel="shortcut icon" type="image/png" href="headset.png"/>
@@ -60,10 +60,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<span class="icon-bar"></span>
 					</button>
 					<div class="logo">
-						<h1>
+						<h2>
 							<a class="navbar-brand" href="index.html">
-								<i class="fas fa-headphones"></i> Learn English</a>
-						</h1>
+								<!-- <i class="fas fa-headphones"></i> Learn English</a> -->
+								<span class=""><img src="logo.png" alt="Learn English"></span></a>
+						</h2>
 					</div>
 				</div>
 
@@ -83,11 +84,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li>
 							<a class="page-scroll" href="#team">Instructors</a>
 						</li>
-						<li>
-							<a href="single.html" class="act">Dashboard</a>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle effect-3" data-toggle="dropdown">Dashboard
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="single.html" class="act">Student</a>
+								</li>
+								<li>
+									<a href="instructor.html" class="act">Instructor</a>
+								</li>
+							</ul>
 						</li>
 						<li>
-							<a class="page-scroll" href="#">Contact</a>
+							<a class="page-scroll" href="#contact">Contact</a>
 						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle effect-3" data-toggle="dropdown">Services
@@ -167,7 +178,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="container">
 						<div class="carousel-caption">
 
-							<h3 style='color: #a2aabb'>Learn something everyday if you can.</h3>
+							<h3>Learn something everyday if you can.</h3>
 
 							<div class="bnr-button">
 								<a class="act" href="#">Read More</a>
@@ -192,7 +203,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!--/works-->
 	<div class="works" id="schedule">
 		<div class="container">
-			<h3 class="tittle_w3ls cen">Learning Schedule - This Week</h3>
+			<h3 class="tittle_w3ls cen">Learning Schedule - December</h3>
+			<div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Week
+				<span class="caret"></span></button>
+				<ul class="dropdown-menu">
+				  <li><a href="#schedule">Week 1</a></li>
+				  <li><a href="#schedule">Week 2</a></li>
+				  <li><a href="#schedule">Week 3</a></li>
+				  <li><a href="#schedule">Week 4</a></li>
+				</ul>
+			</div>
 			<div class="inner_sec_info_agile-w3ls">
 				<div class="column add-bottom">
 					<div id="mainwrap">
@@ -238,10 +259,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="inner_sec_info_agile-w3ls">
 				<div class="col-md-6 team-grid">
 					<div class="col-md-6 team-img1">
-						<img src="images/instructors/a1.jpg" alt="">
+						<img src="images/instructors/local/a1.jpg" alt="">
 					</div>
 					<div class="col-md-6 team-info">
-						<h4>Carl Haddon</h4>
+						<h4>Instructor</h4>
 						<p>Lorem ipsum dolor sit amet consectetur elit.</p>
 						<ul class="social_list_icons">
 							<li>
@@ -270,7 +291,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-md-6 team-grid">
 					<div class="col-md-6 team-info">
-						<h4>Simon Rob</h4>
+						<h4>Instructor</h4>
 						<p>Lorem ipsum dolor sit amet consectetur elit.</p>
 						<ul class="social_list_icons">
 							<li>
@@ -296,14 +317,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</ul>
 					</div>
 					<div class="col-md-6 team-img1">
-						<img src="images/instructors/a2.jpg" alt="">
+						<img src="images/instructors/local/a2.jpg" alt="">
 					</div>
 
 					<div class="clearfix"></div>
 				</div>
 				<div class="col-md-6 team-grid">
 					<div class="col-md-6 team-info">
-						<h4>Abdur Rob</h4>
+						<h4>Instructor</h4>
 						<p>Lorem ipsum dolor sit amet consectetur elit.</p>
 						<ul class="social_list_icons">
 							<li>
@@ -329,17 +350,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</ul>
 					</div>
 					<div class="col-md-6 team-img1">
-						<img src="images/instructors/a3.jpg" alt="">
+						<img src="images/instructors/local/a3.jpg" alt="">
 					</div>
 
 					<div class="clearfix"></div>
 				</div>
 				<div class="col-md-6 team-grid">
 					<div class="col-md-6 team-img1">
-						<img src="images/instructors/a4.jpg" alt="">
+						<img src="images/instructors/local/a4.jpg" alt="">
 					</div>
 					<div class="col-md-6 team-info">
-						<h4>Sumaiya Akter</h4>
+						<h4>Instructor	</h4>
 						<p>Lorem ipsum dolor sit amet consectetur elit.</p>
 						<ul class="social_list_icons">
 							<li>
@@ -370,6 +391,44 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!--//instructors-->
+	<div id="contact" class="inner_sec_info_agile-w3ls">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+			<h2 class="text-center">CONTACT</h2>
+			<div class="row" style="margin-top: 2em">
+				<div class="col-sm-5">
+					<p>Contact us and we'll get back to you within 24 hours.</p>
+					<p>
+						<span class="glyphicon glyphicon-map-marker"></span> Coimbatore, Tamilnadu</p>
+					<p>
+						<span class="glyphicon glyphicon-phone"></span> +91 9898989898</p>
+					<p>
+						<span class="glyphicon glyphicon-envelope"></span> kalvi2014@gmail.com</p>
+				</div>
+				<div class="col-sm-7 slideanim">
+					<div class="row">
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+						</div>
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+						</div>
+					</div>
+					<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+					<br>
+					<div class="row">
+						<div class="col-sm-12 form-group">
+							<button class="btn btn-default pull-right" type="submit">Send</button>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+		</div>
+		<div class="col-md-3"></div>
+		<div class="clearfix"></div>
+	</div>
+
 	
 	<!-- /footer -->
 	<div class="social_footer">
