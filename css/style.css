@@ -359,10 +359,10 @@ button.btn1:hover {
 /*-- banner --*/
 
 .carousel .item {
-    background: url(../images/banner/banner1.jpg) no-repeat;
-    background: url(../images/banner/banner1.jpg) no-repeat;
-    background: url(../images/banner/banner1.jpg) no-repeat;
-    background: url(../images/banner/banner1.jpg) no-repeat;
+    background: url(../images/banner/banner4.jpg) no-repeat;
+    background: url(../images/banner/banner4.jpg) no-repeat;
+    background: url(../images/banner/banner4.jpg) no-repeat;
+    background: url(../images/banner/banner4.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -383,10 +383,10 @@ button.btn1:hover {
 }
 
 .carousel .item.item4 {
-    background: url(../images/banner/banner4.jpg) no-repeat;
-    background: url(../images/banner/banner4.jpg) no-repeat;
-    background: url(../images/banner/banner4.jpg) no-repeat;
-    background: url(../images/banner/banner4.jpg) no-repeat;
+    background: url(../images/banner/banner1.jpg) no-repeat;
+    background: url(../images/banner/banner1.jpg) no-repeat;
+    background: url(../images/banner/banner1.jpg) no-repeat;
+    background: url(../images/banner/banner1.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -1534,6 +1534,25 @@ ul.social-nav .fa-w-12,
     text-indent: 100%;
     background: url(../images/top_move.png) no-repeat 0px 0px;
 }
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+  }
+  
+  .modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+  }
+  
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
 
 /*--responsive--*/
 

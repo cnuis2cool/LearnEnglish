@@ -107,7 +107,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<button class="btn btn-danger col-md-4" id="pauseButton">Delete</button>
 					<button class="btn btn-warning col-md-4" id="stopButton">Record</button>
 				</div>
-				<button class="btn btn-info col-md-4" id="stopButton">Audio Conference</button>
+				<button class="btn btn-info col-md-4" id="stopButton" data-toggle="modal" data-target="#myModal">Audio Conference</button>
+			</div>
+			<!-- Modal -->
+			<div id="myModal" class="modal fade" role="dialog">
+				<span class="close">&times;</span>
+				<img class="modal-content" id="img01" src="images/conference/conference.jpg">
+				<div id="caption"></div>				
 			</div>
 			<div style="margin-bottom:20px"></div>
 			<div class="dropdown">
